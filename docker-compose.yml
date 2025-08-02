@@ -12,7 +12,7 @@ services:
       rdmariadb:
         condition: service_healthy
     ports:
-      - "80:80"
+      - "8090:80"
       - "1812:1812/udp"
       - "1813:1813/udp"
 
